@@ -3,11 +3,18 @@ const app = express();
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`THIS APP ${port}`);
+  console.log(`Listening on port ${port}`);
 
-  const a = 50;
-  const b = 20;
+  const a = 100;
+  const b = 400;
+  const c = 300;
 
+  console.log(a + b + c);
+  console.log(a - b - c);
+  console.log(a + b - c);
+  console.log(a * b - c);
+  console.log(a / b + c);
   console.log(a - b);
   console.log(a + b);
+  console.log(a * b);
 });
